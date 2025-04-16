@@ -1,6 +1,7 @@
 # DAA1
 
 1. BFS
+````
 #include<stdio.h>
 #define MAXSIZE 20
 struct queue
@@ -57,7 +58,8 @@ int main()
 int m[5][5]={{0,0,1,1,0},{0,0,1,0,1},{0,1,0,0,0},{0,0,0,0,1},{0,0,0,0,0}};
 bfs(m,5);
 }
-2. DFS
+````
+3. DFS
 #include <stdio.h>
 #define MAX 100
 int visited[MAX] = {0};
@@ -89,7 +91,7 @@ printf("DFS traversal: ");
 DFS(start_vertex);
 return 0;
 }
-3. Dijkstraj
+4. Dijkstraj
 #include <stdio.h>
 #define MAX 100
 #define INF 99999
@@ -144,12 +146,12 @@ scanf("%d", &source_vertex);
 dijkstra(source_vertex);
 return 0;
 }
-4. Heap Sort
-5. #include<stdio.h>
-6. void heapsort(int a[],int n);
-7. void buildheap(int a[],int n);
-8. void heapify(int a[],int i,int last);
-9. void display(int a[],int n);
+5. Heap Sort
+6. #include<stdio.h>
+7. void heapsort(int a[],int n);
+8. void buildheap(int a[],int n);
+9. void heapify(int a[],int i,int last);
+10. void display(int a[],int n);
 10.int main()
 11.{
 12. int a[7]={17,4,19,2,16,8,28};
